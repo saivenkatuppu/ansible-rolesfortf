@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.calvio.store
+MONGODB_HOST: mongodb-{{ env }}.calvio.store
