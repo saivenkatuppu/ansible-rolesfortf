@@ -1,2 +1,2 @@
-REDIS_HOST: redis.calvio.store
-MONGODB_HOST: mongodb.calvio.store
+REDIS_HOST: redis-{{ env }}.calvio.store
+MONGODB_HOST: mongodb-{{ env }}.calvio.store

@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.calvio.store
-REDIS_HOST: redis.calvio.store
+CATALOGUE_HOST: catalogue.backend-{{ env }}.calvio.store
+REDIS_HOST: redis-{{ env }}.calvio.store
