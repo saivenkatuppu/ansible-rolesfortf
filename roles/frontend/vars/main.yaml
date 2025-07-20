@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.calvio.store
-USER_HOST: user.calvio.store
-CART_HOST: cart.calvio.store
-SHIPPING_HOST: shipping.calvio.store
-PAYMENT_HOST: payment.calvio.store
+CATALOGUE_HOST: catalogue.backend-{{ env }}.calvio.store
+USER_HOST: user.backend-{{ env }}.calvio.store
+CART_HOST: cart.backend-{{ env }}.calvio.store
+SHIPPING_HOST: shipping.backend-{{ env }}.calvio.store
+PAYMENT_HOST: payment.backend-{{ env }}.calvio.store
