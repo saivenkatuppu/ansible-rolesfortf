@@ -1,5 +1,5 @@
-CART_HOST: cart.backend-{{ env }}.calvio.store
-USER_HOST: user.backend-{{ env }}.calvio.store
-RABBITMQ_HOST: rabbitmq.backend-{{ env }}.calvio.store
+CART_HOST:  cart.backend-{{ env }}.calvio.store
+USER_HOST:  user.backend-{{ env }}.calvio.store
+RABBITMQ_HOST: rabbitmq-{{ env }}.calvio.store
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123
